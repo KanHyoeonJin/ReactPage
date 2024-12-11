@@ -1,0 +1,198 @@
+body,
+html {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.nav {
+  margin: 0px;
+  height: 90px;
+  color: white;
+  background-color: #68C8CA;
+}
+
+.foot {
+    height: 124px;
+    background-color: white;
+    width: 100%;
+    bottom: 0;
+    font-size: 11px;
+}
+
+/*민영추가*/
+/* 나라정보 및 국기 */
+
+.topbg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top { 
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 250px;
+    width: 700px;
+    border: 2px solid #68C8CA;
+    border-radius: 10px;
+}
+
+/*나라정보*/
+.Info {
+    width: 250px;
+    height: 200px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0;
+    border: 1px none #68C8CA;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    padding-left: 10px;
+}
+
+/*국기div*/
+.imgfile {
+    width: auto;
+    height: auto;
+} 
+
+/*국기이미지*/
+.imgfile img {
+    border: 1px solid black;
+    width: 300;
+    height: 200px;
+}
+
+/*포스팅 div*/
+.postm {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+img.imgm {
+    height: 500px;
+    width: 700px;
+}
+
+.postm fieldset{
+    max-width: 680px;
+    align-items: center;
+    text-align: left;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+/*댓글*/
+.allAlignm {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.commentm {
+    text-align: left;
+    font-size: 32px;
+    padding-bottom: 130px;
+    margin: 0;
+    justify-content: center;
+}
+
+.commentm > h2 {
+    margin: 0px 390px 10px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.commentInputm {
+    margin-left: 390px;
+    width: 700px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid rgb(157, 157, 157);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.buttonForInputm {
+    margin-left: 10px;
+    box-sizing: border-box;
+    background-color: #68C8CA;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+}
+
+.buttonForDelm {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #68C8CA;
+    border: none;
+    border-radius:5px ;
+    font-weight: bold;
+    height: 23px;
+    width: 50px;
+    font-size: 15px;
+    color: white;
+}
+
+.buttonForInputm {
+    box-sizing: border-box;
+    background-color: #68C8CA;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+.commentulm {
+    margin: 15px 380px 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+}
+
+.commentlim {
+    font-size: 20px;
+    height: 40px;
+    width: 650px;
+    border-bottom: 1px solid rgb(157, 157, 157);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.commentulm button {
+    margin-left: auto;
+}
+
+/*민영추가 끝*/

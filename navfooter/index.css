@@ -1,0 +1,228 @@
+body,
+html {
+  background-color: lightgrey;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.nav {
+  margin: 0px;
+  color: white;
+}
+
+.foot {
+  height: 124px;
+  background-color: grey;
+  width: 100%;
+  bottom: 0;
+}
+
+.spain {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  opacity : 0.3;
+  display: flex;
+  flex-direction: row;
+}
+
+.moveleft {
+  color: white;
+  margin: auto;
+  font-size: 50px;  
+}
+
+.moveleft img {
+  width: 50px;
+  height: 50px;
+}
+
+.moveright {
+  color: white;
+  margin: auto;
+  font-size: 50px;  
+}
+
+.moveright img {
+  width: 50px;
+  height: 50px;
+}
+
+.spainleft {
+  margin-left: 200px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.spainright {
+  /* 필요한 스타일 추가 */
+  color: white; /* 텍스트 색상을 흰색으로 설정 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 200px;
+}
+
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* 컨텐츠 사이의 공간을 균등하게 분배 */
+  min-height: 100vh; /* 최소 높이를 뷰포트 높이의 100%로 설정 */
+  width: 100%; /* 너비를 100%로 설정 */
+}
+
+.travel-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.button-container {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.header-content {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.header-content h1 {
+  transition: box-shadow 0.5s ease, transform 0.2s ease;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  border-radius: 4px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+  width: auto;
+  max-width: 80%;
+  display: inline-block;
+}
+
+.app-header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 20px;
+}
+
+.login-button {
+  padding: 8px 16px;
+  background-color: #373b69;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-item {
+  position: relative;
+  width: calc(33.33% - 32px);
+  margin: 16px;
+  color: white;
+  border-radius: 15px;
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.image-item img:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+
+.image-item:hover::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  font-weight: bold;
+  z-index: 10;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.image-button {
+  display: flex; /* Flexbox를 사용하여 내용을 중앙에 배치 */
+  justify-content: center; /* 가로 방향 중앙 정렬 */
+  align-items: center; /* 세로 방향 중앙 정렬 */
+  padding: 10px; /* 버튼 내부 패딩 */
+  margin: 0 16px;
+  border: none; /* 테두리 제거 */
+  border-radius: 10px; /* 버튼의 테두리를 둥글게 */
+  cursor: pointer; /* 포인터 커서 스타일 */
+}
+
+.image-button img {
+  width: 30px; /* 이미지 너비 30px */
+  height: 30px; /* 이미지 높이 30px */
+  object-fit: cover; /* 이미지 비율을 유지하며 요소에 맞춤 */
+  border-radius: 50%; /* 이미지의 테두리를 완전히 둥글게 */
+}
+
+.Korea:hover::after {
+  content: 'KOREA';
+}
+
+.China:hover::after {
+  content: 'CHINA';
+}
+
+.image3:hover::after {
+  content: 'JAPAN';
+}
+
+.image4:hover::after {
+  content: 'USA';
+}
+
+.image5:hover::after {
+  content: 'Russia';
+}
+
+.image6:hover::after {
+  content: 'India';
+}
+
+.image7:hover::after {
+  content: 'None';
+}
+
+.image8:hover::after {
+  content: 'None';
+}
+

@@ -1,0 +1,42 @@
+/* 로그인 및 회원가입 컨테이너의 스타일 설정 */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 뷰포트 높이의 전체를 사용하여 세로 중앙 정렬 */
+}
+
+/* 로그인 및 회원가입 폼의 스타일 설정 */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* 폼의 폭 설정 */
+  align-items: center; /* 폼 내 요소를 가운데 정렬 */
+}
+
+/* 입력 필드의 스타일 설정 */
+.login-input {
+  margin-bottom: 10px; /* 입력 필드 간격 조정 */
+  height: 30px; /* 입력 필드 높이 설정 */
+  padding: 5px; /* 패딩으로 내부 여백 추가 */
+  width: 100%; /* 입력 필드 폭을 폼에 맞춤 */
+}
+
+/* 로그인 및 회원가입 버튼 컨테이너의 스타일 설정 */
+.login-buttons {
+  display: flex;
+  width: 100%; /* 버튼 컨테이너의 폭을 폼에 맞춤 */
+  justify-content: space-between; /* 버튼 간 공간을 균등하게 배분 */
+}
+
+/* 버튼의 스타일 설정 */
+.button {
+  width: 48%; /* 버튼의 폭 설정 */
+  height: 35px; /* 버튼의 높이 조정 */
+  font-size: 14px; /* 글꼴 크기 조정 */
+  cursor: pointer; /* 마우스 오버 시 커서 변경 */
+  background-color: #f5f5f5; /* 배경색 설정 */
+  border: none; /* 테두리 제거 */
+  border-radius: 5px; /* 테두리 둥글게 설정 */
+  margin-top: 10px; /* 상단 여백 추가 */
+}

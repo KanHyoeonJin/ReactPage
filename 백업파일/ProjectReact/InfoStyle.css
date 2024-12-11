@@ -1,0 +1,20 @@
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.info-content {
+  transition: box-shadow 0.5s ease, transform 0.2s ease;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  border-radius: 4px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+  width: auto;
+  max-width: 80%;
+  display: inline-block;
+}
